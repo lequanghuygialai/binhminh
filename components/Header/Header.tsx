@@ -23,15 +23,11 @@ export default function Header() {
 
         <nav id="navbar" className="navbar order-last order-lg-0">
           <ul>
-            <li>
-              <Link href="/">
-                <a className="nav-link scrollto active">Home</a>
-              </Link>
+            <li className="nav-link scrollto">
+              <Link href="/">Home</Link>
             </li>
-            <li>
-              <a href="/project" className="nav-link scrollto">
-                Project
-              </a>
+            <li className="nav-link scrollto">
+              <Link href="/project">Project</Link>
             </li>
             {/* <li>
               <a className="nav-link scrollto" href="#about">
